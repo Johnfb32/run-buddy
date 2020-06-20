@@ -8,6 +8,9 @@ body {
 }
 /* apply styles to <header> */
 header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding: 20px 35px;
   background-color: #39a6b2;
 }
@@ -22,7 +25,6 @@ header a {
   color: #fce138;
 }
 header nav {
-  float: right;
   margin: 7px 0;
 }
 header nav ul li {
@@ -38,7 +40,6 @@ header h1 {
   font-size: 36px;
   color: #fce138;
   margin: 0;
-  display: inline;
 }
 * {
   margin: 0;
@@ -80,7 +81,6 @@ section {
 }
 
 .hero-form {
-  ...
   border: solid 3px #024e76;
 }
 
